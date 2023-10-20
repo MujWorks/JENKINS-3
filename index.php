@@ -14,7 +14,13 @@
             <th>Price</th>
             <th>Action</th>
         </tr>
-        <?php while ($row = mysqli_fetch_assoc($result)) {
+        <?php 
+        
+        error_reporting(E_ALL);
+ini_set('display_errors', 1);
+        
+        
+        while ($row = mysqli_fetch_assoc($result)) {
             var_dump($row); // Add this line to debug
             ?>
             ?>
