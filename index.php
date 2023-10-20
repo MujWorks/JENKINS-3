@@ -1,3 +1,9 @@
+<?php
+include 'config.php';
+
+$query = "SELECT * FROM items";
+$result = mysqli_query($conn, $query);
+?>
 <!DOCTYPE html>
 <html>
 <head>
