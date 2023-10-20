@@ -30,7 +30,7 @@ $result = mysqli_query($conn, $query);
         
         
         while ($row = mysqli_fetch_assoc($result)) {
-            var_dump($row); // Add this line to debug
+            //var_dump($row); // Add this line to debug
             ?>
             ?>
             <tr>
