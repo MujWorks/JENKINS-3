@@ -1,4 +1,8 @@
 <?php
+
+//error_reporting(E_ALL);
+//ini_set('display_errors', 1);
+
 include 'config.php';
 
 $query = "SELECT * FROM items";
@@ -22,8 +26,7 @@ $result = mysqli_query($conn, $query);
         </tr>
         <?php 
         
-        error_reporting(E_ALL);
-ini_set('display_errors', 1);
+        
         
         
         while ($row = mysqli_fetch_assoc($result)) {
